@@ -1,2 +1,16 @@
 - name: Home
   link: /
+- name: Anantomy and Biology
+  link: /anatomy/
+- name: Behaviour
+  link: /behaviour/
+- name: Habitat
+  link: /habitat/
+- name: Mating and Reproduction
+  link: /mating/
+- name: Behaviour
+  link: /behaviour/
+- name: Name and Classification
+  link: /classification/
+- name: Diet Information
+  link: /diet/
