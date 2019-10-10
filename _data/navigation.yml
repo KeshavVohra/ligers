@@ -1,10 +1,10 @@
 - name: Home
   link: /
 - name: Anatomy and Biology
-  link: /anatomy/
+  link: /#anatomy-jpg
 - name: Behaviour
-  link: /behaviour/
+  link: /#behavior-jpg
 - name: Mating and Reproduction
-  link: /mating/
+  link: /#mating-jpg
 - name: Name and Classification
   link: /#classification-jpg
