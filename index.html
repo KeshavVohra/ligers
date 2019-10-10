@@ -2,8 +2,7 @@
 title: Home
 photos:
   - image: /liger-spec.jpg
-    caption: classification
-    link: /classification/
+    caption: /classification/
   - image: /largest male liger.jpg
     caption: Giraffe - Wellington, NZ
   - image: /Liger_couple.jpg
@@ -18,7 +17,11 @@ photos:
 
 <ul class="gallery">
 	{% for photo in page.photos %}
-		<li style="background-image: url('{{ site.baseurl }}{{ photo.image | resize: "800x800>" }}')"><a title="{{ photo.caption }}" href="{{ photo.link }}" data-id="#{{ photo.image | slugify }}" data-caption="{{ photo.caption }}"></a></li>
+		<li style="background-image: url('{{ site.baseurl }}{{ photo.image | resize: "800x800>" }}')">
+      <a title="{{ photo.caption }}" 
+      href="{{ photo.caption }}"
+      data-id="#{{ photo.image | slugify }}"
+      data-caption="{{ photo.caption }}"></a></li>
 	{% endfor %}
 	<li class="spacer"></li>
 	<li class="spacer"></li>
