@@ -1,5 +1,6 @@
 ---
 title: Home
+home_page_photo: /liger11.jpg
 photos:
   - image: /classification.jpg
     caption: Classification
@@ -10,6 +11,10 @@ photos:
   - image: /Mating.jpg
     caption: Mating
 ---
+
+<div>
+  <img src="{{ site.baseurl }}{{ home_page_photo }}" />
+</div>
 
 <ul class="gallery">
 	{% for photo in page.photos %}
